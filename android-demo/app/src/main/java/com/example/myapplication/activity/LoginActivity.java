@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         password.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
-                return id == EditorInfo.IME_ACTION_SEARCH;
+                return id == EditorInfo.IME_ACTION_NEXT;
             }
         });
 
