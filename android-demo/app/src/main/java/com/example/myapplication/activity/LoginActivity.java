@@ -60,6 +60,7 @@ public class LoginActivity extends AppCompatActivity {
         if (usr.equals("admin") && pwd.equals("123456")) {
             Intent in = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(in);
+            LoginActivity.this.finish();
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
